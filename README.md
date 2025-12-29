@@ -166,6 +166,26 @@ python advanced_enhancer.py
 
 **Output**: `advanced_enhanced_[filename].mp4`
 
+---
+
+### 7. `multiframe_enhancer.py` - Multi-Frame Super-Resolution
+**Purpose**: Professional-grade enhancement using temporal information from multiple video frames.
+
+**Features**:
+- Multi-frame super-resolution (2x upscaling)
+- Sub-pixel frame registration using phase correlation
+- Blind deconvolution for blur removal
+- Wavelet enhancement for detail preservation
+- Temporal information fusion from 3-9 frames
+- Motion-compensated frame averaging
+
+**Usage**:
+```bash
+python multiframe_enhancer.py
+```
+
+**Output**: `multiframe_enhanced_[filename].mp4`
+
 ## Quick Start Guide
 
 ### Step-by-Step Process
@@ -183,6 +203,7 @@ python advanced_enhancer.py
    - Face analysis → `python face_enhancer.py`
    - Color improvement → `python color_enhancer.py`
    - Professional analysis → `python advanced_enhancer.py`
+   - Multi-frame enhancement → `python multiframe_enhancer.py`
 
 4. **Interactive Selection**: All scripts provide:
    - Video file selection menu
@@ -200,6 +221,7 @@ python advanced_enhancer.py
 | Face detail enhancement | `face_enhancer.py` | Facial features |
 | Shadow/lighting issues | `color_enhancer.py` | Poor lighting conditions |
 | Maximum detail extraction | `advanced_enhancer.py` | Professional analysis |
+| Multi-frame enhancement | `multiframe_enhancer.py` | Highest quality output |
 
 ## Common Workflow
 
@@ -234,3 +256,4 @@ All scripts create enhanced videos with descriptive prefixes:
 - `face_enhanced_*` - Facial enhancement
 - `color_enhanced_*` - Color enhancement
 - `advanced_enhanced_*` - Advanced processing
+- `multiframe_enhanced_*` - Multi-frame super-resolution
